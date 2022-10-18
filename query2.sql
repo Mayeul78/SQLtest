@@ -1,0 +1,1 @@
+SELECT * from students_detailed WHERE pass like 'mayeul';
