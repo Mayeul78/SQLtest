@@ -54,7 +54,13 @@
         <mxCell id="eZK-zR2VjhAOhGV-CHan-19" value="Linked List/ Queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="570" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZK-zR2VjhAOhGV-CHan-21" value="Private NetWork UDP" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-21" target="eZK-zR2VjhAOhGV-CHan-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-21" target="eZK-zR2VjhAOhGV-CHan-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-21" value="Private NetWork" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="900" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eZK-zR2VjhAOhGV-CHan-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-22">
@@ -93,6 +99,57 @@
               <mxPoint x="440" y="850" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-37" value="Port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-38" value="Port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-41" value="Trade Reporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-43" value="Auction Fairy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-43" target="eZK-zR2VjhAOhGV-CHan-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-45" value="Role: If a client want to create an order at a specific time, will store it and broadcast it at the given time&lt;div&gt;Allow to delay buy/sell&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="660" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-46" value="Market Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-37" target="eZK-zR2VjhAOhGV-CHan-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="948" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-21" target="eZK-zR2VjhAOhGV-CHan-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-38" target="eZK-zR2VjhAOhGV-CHan-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="1060" />
+              <mxPoint x="330" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.408;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eZK-zR2VjhAOhGV-CHan-21" target="eZK-zR2VjhAOhGV-CHan-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-52" value="Give the sequence of input /output&lt;div&gt;and trade done&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-53" value="Give current price and&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eZK-zR2VjhAOhGV-CHan-54" value="UDP&lt;div&gt;Fairness between clients&lt;/div&gt;&lt;div&gt;no hanshake&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1150" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
